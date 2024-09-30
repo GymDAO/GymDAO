@@ -19,10 +19,14 @@ module.exports = {
           900: '#F25C05'
         }
       },
-      borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)'
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translate(calc(-50% - 0.5rem))' }
+        }
+      },
+      animation: {
+        scroll: 'scroll 15s linear infinite'
       }
     }
   },

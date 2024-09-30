@@ -1,3 +1,5 @@
+import PartnersSection from '@/components/molecules/PartnersSection';
+
 export default function Home() {
   return (
     <>
@@ -10,8 +12,8 @@ export default function Home() {
       <div className="min-h-[500px]" id="services">
         SERVICES
       </div>
-      <div className="min-h-[500px]" id="partners">
-        PARTNERS
+      <div className="" id="partners">
+        <PartnersSection />
       </div>
       <div className="min-h-[500px]" id="faq">
         FAQ
